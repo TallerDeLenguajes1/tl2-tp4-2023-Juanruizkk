@@ -14,6 +14,8 @@ public class CadeteriaController : ControllerBase
     {
         _logger = logger;
         cad = Cadeteria.Instance;
+    
+       
     }
 
     [HttpGet]

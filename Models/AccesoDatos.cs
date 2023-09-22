@@ -4,6 +4,8 @@ using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
+
+
 public abstract class AccesoADatos
 {
     public abstract List<Cadete> CargarCadetes(string path);
@@ -80,7 +82,7 @@ public class AccesoJson : AccesoADatos
     {
         string json = File.ReadAllText(Path.Combine(path, "Cadeteria.json"));
         Cadeteria nuevaCadeteria = JsonSerializer.Deserialize<Cadeteria>(json);
-        nuevaCadeteria.ListadoCadetes = CargarCadetes(path);
+        //nuevaCadeteria.ListadoCadetes = CargarCadetes(path);
         return nuevaCadeteria;
     }
 }

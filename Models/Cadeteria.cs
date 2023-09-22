@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System;
 using System.IO;
 namespace EspacioCadeteria;
+
 public class Cadeteria
 {
     private string nombre;
@@ -15,14 +16,7 @@ public class Cadeteria
     private Cadeteria()
     {
 
-        nombre = "Cadeteria Juan";
-        telefono = 3814452417;
-        listadoCadetes = new List<Cadete>();
-        listadoPedidos = new List<Pedido>();
-        CrearPedido(1, "Queso", Estado.EnPreparacion, "Juan", "Bolivia", 323, "Entregar en puera");
-        CrearPedido(2, "Mila", Estado.EnPreparacion, "Pedro", "Mendoza", 323, "Entregar en puera");
-        CrearPedido(3, "Bacon", Estado.EnPreparacion, "Ricardito", "Peru", 323, "Entregar en puera");
-        listadoCadetes.Add(new Cadete(1, "Ramiro", "Parque", 38445262));
+        
     }
 
     public static Cadeteria Instance
@@ -32,6 +26,10 @@ public class Cadeteria
             if (instance == null)
             {
                 instance = new Cadeteria();
+                AccesoADatos acceso = new AccesoJson();
+                instance = acceso.CargarDatosCadeteria("");
+
+
             }
             return instance;
         }

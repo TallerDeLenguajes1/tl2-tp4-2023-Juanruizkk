@@ -469,19 +469,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juani\\.nuget\\packages\\": {}
+    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Juan Ruiz\\Taller de lenguajes 2\\tl2-tp4-2023-Juanruizkk\\tl2-tp4-2023-Juanruizkk.csproj",
+      "projectUniqueName": "C:\\TALLER\\tl2-tp4-2023-Juanruizkk\\tl2-tp4-2023-Juanruizkk.csproj",
       "projectName": "tl2-tp4-2023-Juanruizkk",
-      "projectPath": "C:\\Juan Ruiz\\Taller de lenguajes 2\\tl2-tp4-2023-Juanruizkk\\tl2-tp4-2023-Juanruizkk.csproj",
-      "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-      "outputPath": "C:\\Juan Ruiz\\Taller de lenguajes 2\\tl2-tp4-2023-Juanruizkk\\obj\\",
+      "projectPath": "C:\\TALLER\\tl2-tp4-2023-Juanruizkk\\tl2-tp4-2023-Juanruizkk.csproj",
+      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+      "outputPath": "C:\\TALLER\\tl2-tp4-2023-Juanruizkk\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -489,7 +489,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -536,7 +536,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
