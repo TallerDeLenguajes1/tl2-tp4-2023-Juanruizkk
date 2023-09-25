@@ -31,3 +31,5 @@ C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\obj\Debug\net7.0\refi
 C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\obj\Debug\net7.0\tl2-tp4-2023-Juanruizkk.pdb
 C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\obj\Debug\net7.0\tl2-tp4-2023-Juanruizkk.genruntimeconfig.cache
 C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\obj\Debug\net7.0\ref\tl2-tp4-2023-Juanruizkk.dll
+C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\bin\Debug\net7.0\Cadeteria.json
+C:\Juan Ruiz\Taller de lenguajes 2\tl2-tp4-2023-Juanruizkk\bin\Debug\net7.0\cadetes.json

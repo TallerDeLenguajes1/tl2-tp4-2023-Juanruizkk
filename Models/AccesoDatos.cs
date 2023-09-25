@@ -69,14 +69,14 @@ public class AccesoCSV : AccesoADatos
 
 public class AccesoJson : AccesoADatos
 {
-    public override List<Cadete> CargarCadetes(string path)
+    public override List<Cadete> CargarCadetes(string path = "")
     {
         string cadetesPath = Path.Combine(path, "cadetes.json");
         string cadetesJson = File.ReadAllText(cadetesPath);
         List<Cadete> listaCadetes = JsonSerializer.Deserialize<List<Cadete>>(cadetesJson);
         return listaCadetes;
     }
-    public override Cadeteria CargarDatosCadeteria(string path)
+    public override Cadeteria CargarDatosCadeteria(string path = "")
     {
         string json = File.ReadAllText(Path.Combine(path, "Cadeteria.json"));
         Cadeteria nuevaCadeteria = JsonSerializer.Deserialize<Cadeteria>(json);
