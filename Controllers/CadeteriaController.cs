@@ -39,6 +39,7 @@ public class CadeteriaController : ControllerBase
         List<Cadete> listadoCadetes = cad.getListadoCadete();
         return Ok(listadoCadetes);
     }
+
     [HttpGet("get-Informe", Name = "obtenerInforme")]
     public IActionResult GetInforme()
     {
